@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0; /* ? */
+    box-sizing: border-box; /* ? */
+}
+html{
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto; /* ? */
+}
+body{
+    margin: 0;
+    line-height: 1.5;
+}
+img{
+    max-width: 100%; /* ? */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background: #fff;
+    padding-left: 12px;
+    padding-right: 16px;
+}
+.left_part {
+    display: flex;
+    align-items: center;
+}
+.logo{
+    text-align: center;
+}
+.logo a{
+    display:block;
+    padding:8px 16px;
+}
+.logo a img{
+    max-width: 45px;
+}
+.menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul li a {
+    padding: 28px 16px;
+    color: black;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 550;
+}
+.menu ul li a:hover {
+    color: #fff;
+    background: #00AC6D;
+}
+.right_part {
+    display: flex;
+}
+.head_icon {
+    display: flex;
+    margin-right: 15px;
+}
+.head_icon ul {
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.head_icon ul li a {
+    display: block;
+    padding: 8px 16px;
+    color: black;
+}
+.head_icon ul li a:hover {
+    color: #00AC6D;
+    background: white;
+}
+.head_btn {
+    display: flex;
+    align-items: center;
+}
+.head_btn a {
+    width: 130px;
+}
+.head_btn a:last-child {
+    margin: 0;
+}
+section.layout{
+    display: flex;
+    padding: 32px 0;
+    justify-content: space-between;
+}
+section.html_sec{
+    color: white;
+    background: #282A35; 
+}
+.container{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    max-width: 1365px;
+    align-items: center;
+    justify-content: space-between;
+}
+.left_side {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    flex-direction: column; /* ? */
+    justify-content: center;
+}
+.right_side{
+    width: 50%;
+    padding: 3%;
+}
+section.layout .left_side h2{
+    font-size: 100px;
+    font-weight: 700;
+    line-height: normal;
+}
+section.layout .left_side h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 32px 0;
+}
+section.layout .left_side a{
+    width: 200px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+section.layout .left_side a:last-child{
+    color: black;
+    background: white;
+}
+section.layout .right_side .sub-right_side{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background: #E7E9EB;
+    justify-content: space-between;
+    height: 100%;
+    padding: 16px;
+    border-radius: 5px;
+    align-items: flex-start;
+}
+section.layout .right_side .sub-right_side .right_side_head h3{
+    font-size: 24px; 
+    margin: 10px 0;
+}
+section.layout .right_side .sub-right_side .right_side_body{
+    display: flex;    
+    height: 185px;
+    width: 100%;
+    margin: 16px 0;
+    border-left: 4px solid #00AC6D;
+}
+section.layout .right_side .sub-right_side .right_side_body .code_block{
+    display: flex;
+    height: 100%;    
+    width: 100%; 
+    background: white;
+}
+section.layout .right_side .sub-right_side .right_side_footer a{
+    width: 200px;
+}
+
+/* for css_sec */
+section.css_sec{
+    color: black;
+    background: #D9EEE1;
+}
+
+/* for js_sec */
+.Js_sec{
+    color: black;
+    background: #FFF4A3;
+}
+
+/* for Python_sec */
+.PYTHON_sec{
+    color: white;
+    background: #282A35;
+}
+
+/* for sql_sec */
+.sql_sec{
+    color: black;
+    background: white;
+}
+
+
+/* for 2_box_layout */
+section.php_jquery{
+    display: flex;
+    justify-content: space-between;
+    background: #282A35;
+    padding-top: 70px;
+}
+section.java_c{
+    display: flex;
+    justify-content: space-between;
+    background: #282A35;
+}
+section.w3_bootstrap{
+    display: flex;
+    justify-content: space-between;
+    background: #282A35;
+   
+}
+
+
+.main_box{
+    width: 50%;
+    padding: 2% 3%;
+}
+.left_box{
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+.left_box h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+.left_box h5 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+.left_box a{
+    width: 200px;
+    background-color: #282A35;
+    color: white;
+}
+
+.right_box{
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+.right_box h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.right_box h5{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+.right_box a{
+    width: 200px;
+    background-color: #282A35;
+    color: white;
+}
+.php_box{
+    color: black;
+    background: #FFC0C7;
+}
+.jquery_box{
+    color: black;
+    background: #FFF4A3;
+}
+.java_box{
+    color: black;
+    background: #F3ECEA;
+}
+.c_box{
+    color: black;
+    background: #D9EEE1;
+}
+.w3_box{
+    color: black;
+    background: #96D4D4;
+    height: 315px;
+}
+.bootstrap_box{
+    color: black;
+    background: #E7E9EB;
+    height: 315px;
+}
+
+
+.four_box_layout{
+    display: flex;
+    justify-content: space-between;
+    background: #282A35;
+    flex-direction: column;
+}
+.p-t{
+    padding-top: 70px;  
+}
+.same_box{
+    width: 25%;
+    padding: 2% 3%;
+}
+.item_box a{
+    text-decoration: none;
+}
+.item_box a h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0;
+    color: black;
+}
+.item_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    border-radius: 5px;
+}
+.c_box{
+    background: #FFC0C7;
+}
+.r_box{
+    background: #FFF4A3;
+}
+.kotlin_box{
+    background: #F3ECEA;
+}
+.msql_box{
+    background: #D9EEE1;
+}
+.node_box{
+    background: #96D4D4;
+}
+
+
+/* re-usable css */
+.default_btn{
+    display: block;
+    text-align: center;
+    padding: 12px 16px;
+    width: auto;
+    background: #00ac6d;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 15px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.default-btn:hover {
+    background-color: #059862;
+    color: white;
+}
+.light_btn{
+    background: #fff;
+    color: #00ac6d;
+}
+
+.light_btn:hover {
+    background-color: #04AA6D;
+    color: white;
+}
