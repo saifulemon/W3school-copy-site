@@ -13,6 +13,7 @@ html{
 body{
     margin: 0;
     line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
 }
 img{
     max-width: 100%; /* ? */
@@ -87,7 +88,7 @@ header {
     align-items: center;
 }
 .head_btn a {
-    width: 130px;
+    width: 150px;
 }
 .head_btn a:last-child {
     margin: 0;
@@ -125,17 +126,17 @@ section.html_sec{
     padding: 3%;
 }
 section.layout .left_side h2{
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 700;
     line-height: normal;
 }
 section.layout .left_side h4{
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 400;
     margin: 32px 0;
 }
 section.layout .left_side a{
-    width: 200px;
+    width: 223px;
     margin: 0;
     margin-bottom: 20px;
 }
@@ -273,8 +274,9 @@ section.w3_bootstrap{
 }
 
 /* this style for exercise section */
-section.exercise-sec {
-    background: url("assets/img/w3codes.png") no-repeat fixed center;
+.exercise-sec {
+    padding: 64px 0px 80px;
+    background: url('../img/w3codes.png') fixed;
 }
 
 .exercise-container {
@@ -288,6 +290,7 @@ section.exercise-sec {
 }
 .half-width-box {
     width: 50%;
+    margin: 18px 0;
     padding: 0px 8px;
 }
 .exercise {
@@ -295,10 +298,19 @@ section.exercise-sec {
     font-size: 35px;
     opacity: 0.97;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     background-color: #059862;
     border-radius: 5px;
+}
+.quizze{
+    padding: 70px 50px;
+    font-size: 35px;
+    opacity: 0.97;
+    text-align: center;
+    border-radius: 5px;
+}
+.quizze a {
+    text-decoration: none;
+    color: black;
 }
 .exercise-container h2 {
     font-size: 45px;
@@ -309,9 +321,8 @@ section.exercise-sec {
     font-size: 20px;
 }
 .exercise a {
-    color: white;
     text-decoration: none;
-    text-align: center;
+    color: white;
 }
 
 /* this style for templates section */
@@ -440,8 +451,18 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 32px 0;
+    padding: 32px 16px;
     align-items: center;
+}
+.ft-btn a {
+    font-size: 17px;
+    color: black;
+    background: white;
+    padding: 8px 16px !important;
+    margin: -9px 5px 0px;
+    width: 120px;
+    border-radius: 5px;
+    text-transform: uppercase;
 }
 
 .ft-link {
@@ -449,7 +470,68 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 32px 16px;
 }
+.ft-link a {
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.social-icon {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.15px 16px;
+}
+
+.social-icon ul {
+    list-style: none;
+    display: inline-flex;
+    margin-left: auto;
+}
+
+.social-icon ul li a {
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 8px 16px;
+    color: white;
+    text-decoration: none;
+}
+.social-icon ul li a:hover {
+    background: white;
+    color: black;
+}
+.footer-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bottom p {
+    font-size: 15px;
+    margin: 18px 0;
+    text-align: center;
+}
+
+.footer-bottom a:nth-child(2) {
+    font-size: 35px;
+    color: white;
+}
+
+.footer-bottom a:nth-child(3) {
+    width: 50%;
+    /* padding: 12px 28px; */
+    margin: 32px 0 16px 0;
+    text-transform: uppercase;
+}
+
+
 
 /**** re-usable css ****/
 .default_btn{
@@ -516,6 +598,7 @@ footer {
 .right_box h2{
     font-size: 45px;
     font-weight: 700;
+    margin: 10px 0;
 }
 .right_box h5{
     font-size: 20px;
@@ -552,6 +635,11 @@ footer {
     background: #E7E9EB;
 }
 
+.bg-white {
+    background: black !important;
+    color: white !important;
+}
+
 .four_box_layout{
     display: flex;
     justify-content: space-between;
@@ -559,7 +647,7 @@ footer {
     flex-direction: column;
 }
 .ht-315 {
-    height: 315px;
+    height: 330px;
 }
 .p-t{
     padding-top: 70px;  
@@ -598,4 +686,21 @@ footer {
 .half-width {
     width: 50%;
     padding: 2% 3%;
+}
+
+/* ohers css */
+.same-height h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 10px 0 -15px;
+}
+.same-height h5 {
+    font-size: 17px;
+    font-weight: 400;
+    margin: 49px 0 26px;
+}
+.same-height a{
+    width: 200px;
+    background-color: #282A35;
+    margin-bottom: 77px;
 }
