@@ -1,3 +1,4 @@
+/* common css */
 *{
     padding: 0;
     margin: 0;
@@ -17,6 +18,7 @@ img{
     max-width: 100%; /* ? */
 }
 
+/* this style for heaer area */
 header {
     display: flex;
     justify-content: space-between;
@@ -90,11 +92,15 @@ header {
 .head_btn a:last-child {
     margin: 0;
 }
+
+/* this style for layout section */
 section.layout{
     display: flex;
     padding: 32px 0;
     justify-content: space-between;
 }
+
+/* this style for html section */
 section.html_sec{
     color: white;
     background: #282A35; 
@@ -169,25 +175,25 @@ section.layout .right_side .sub-right_side .right_side_footer a{
     width: 200px;
 }
 
-/* for css_sec */
+/* this style for css section */
 section.css_sec{
     color: black;
     background: #D9EEE1;
 }
 
-/* for js_sec */
+/* this style for JS section */
 .Js_sec{
     color: black;
     background: #FFF4A3;
 }
 
-/* for Python_sec */
+/* this style for Python section */
 .PYTHON_sec{
     color: white;
     background: #282A35;
 }
 
-/* for sql_sec */
+/* this style for SQL section */
 .sql_sec{
     color: black;
     background: white;
@@ -195,17 +201,22 @@ section.css_sec{
 
 
 /* for 2_box_layout */
+/* this style for php & jquery section */
 section.php_jquery{
     display: flex;
     justify-content: space-between;
     background: #282A35;
     padding-top: 70px;
 }
+
+/* this style for java & c++ section */
 section.java_c{
     display: flex;
     justify-content: space-between;
     background: #282A35;
 }
+
+/* this style for We3 & Bootstrap section */
 section.w3_bootstrap{
     display: flex;
     justify-content: space-between;
@@ -213,6 +224,259 @@ section.w3_bootstrap{
    
 }
 
+/* this style for color picker section */
+.color-picker {
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3ECEA;
+    padding: 78px 0 95px;
+}
+.color-picker h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.color-picker h4 {
+    margin-top: 25px;
+    font-size: 20px;
+}
+.color-picker a img {
+    width: 150px;
+    height: 128px;
+    margin-top: 16px;
+}
+
+/* this style for code game section */
+.code-game {
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #96D4D4;
+    padding: 80px 40px;
+}
+.code-game h1 {
+    font-family: 'Freckle Face', cursive;
+    font-size: 48px;
+}
+
+.code-game h2 {
+    font-family: 'Freckle Face', cursive;
+    font-size: 32px;
+}
+.code-game a img {
+    margin: 16px 0;
+}
+
+/* this style for exercise section */
+section.exercise-sec {
+    background: url("assets/img/w3codes.png") no-repeat fixed center;
+}
+
+.exercise-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 0 80px;
+    color: white;
+}
+.half-width-box {
+    width: 50%;
+    padding: 0px 8px;
+}
+.exercise {
+    padding: 70px 50px;
+    font-size: 35px;
+    opacity: 0.97;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #059862;
+    border-radius: 5px;
+}
+.exercise-container h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.exercise-container h4 {
+    font-size: 20px;
+}
+.exercise a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* this style for templates section */
+.templates {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 64px 24px 90px 24px;
+    background-color: #E7E9EB!important;
+    color: black!important;
+    text-align: center!important;
+}
+
+.templates h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.templates h4 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.templates a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.templates a img {
+    max-width: 980px;
+    margin: 16px 0 20px 0;
+}
+
+.templates a:last-child {
+    width: 50%;
+    background-color: #282A35;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* this style for carrer section */
+.carrer-sec {
+    margin-top: 0;
+    background-color: #282A35;
+}
+.career-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    padding: 0 60px 50px 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFC0C7;
+}
+.career-container h2 {
+    font-size: 62px;
+    margin: 62px 0;
+}
+
+.career-container p {
+    font-size: 52px;
+    margin: 16px 0 52px 0;
+}
+
+.career-container a {
+    width: 200px;
+}
+
+/* this style for svg */
+#w3_cert_arrow {
+    position: absolute;
+    right: 240px;
+    width: 220px;
+    transform: rotate(10deg);
+    bottom: 0;
+    z-index: 1;
+}
+#w3_cert_badge {
+    position: absolute;
+    right: 5%;
+    width: 220px;
+    transform: rotate(10deg);
+    bottom: -15%;
+}
+
+/* this style for how to section */
+.how-to-container {
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 48px 24px 80px;
+}
+
+.how-to-container h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.how-to-container h4 {
+    display: inline;
+    font-size: 20px;
+    margin: 10px 0;
+    background: gainsboro;
+}
+
+.how-to-container a {
+    width: 50%;
+    background-color: #282A35;
+    color: white;
+    margin: 18px 0;
+    text-transform: uppercase;
+}
+
+/* this style for footer section */
+footer {
+    color: white;
+    background: #282A35;
+    padding: 32px 16px;
+}
+.ft-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px 0;
+    align-items: center;
+}
+
+.ft-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/**** re-usable css ****/
+.default_btn{
+    display: block;
+    text-align: center;
+    padding: 12px 16px;
+    width: auto;
+    background: #00ac6d;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 15px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.default-btn:hover {
+    background-color: #059862;
+    color: white;
+}
+.light_btn{
+    background: #fff;
+    color: #00ac6d;
+}
+
+.light_btn:hover {
+    background-color: #04AA6D;
+    color: white;
+}
 
 .main_box{
     width: 50%;
@@ -263,33 +527,30 @@ section.w3_bootstrap{
     background-color: #282A35;
     color: white;
 }
-.php_box{
+.color1{
     color: black;
     background: #FFC0C7;
 }
-.jquery_box{
-    color: black;
-    background: #FFF4A3;
+.color2{
+    color: black !important;
+    background: #FFF4A3 !important;
 }
-.java_box{
+.color3{
     color: black;
     background: #F3ECEA;
 }
-.c_box{
+.color4{
     color: black;
     background: #D9EEE1;
 }
-.w3_box{
+.color5{
     color: black;
     background: #96D4D4;
-    height: 315px;
 }
-.bootstrap_box{
+.color6{
     color: black;
     background: #E7E9EB;
-    height: 315px;
 }
-
 
 .four_box_layout{
     display: flex;
@@ -297,9 +558,16 @@ section.w3_bootstrap{
     background: #282A35;
     flex-direction: column;
 }
+.ht-315 {
+    height: 315px;
+}
 .p-t{
     padding-top: 70px;  
 }
+.pb-64 {
+    padding-bottom: 64px;
+}
+
 .same_box{
     width: 25%;
     padding: 2% 3%;
@@ -321,46 +589,13 @@ section.w3_bootstrap{
     padding: 24px;
     border-radius: 5px;
 }
-.c_box{
-    background: #FFC0C7;
+.two-box-layout {
+    display: flex;
+    justify-content: space-between;
+    background: #282A35;
+    flex-direction: column;
 }
-.r_box{
-    background: #FFF4A3;
-}
-.kotlin_box{
-    background: #F3ECEA;
-}
-.msql_box{
-    background: #D9EEE1;
-}
-.node_box{
-    background: #96D4D4;
-}
-
-
-/* re-usable css */
-.default_btn{
-    display: block;
-    text-align: center;
-    padding: 12px 16px;
-    width: auto;
-    background: #00ac6d;
-    color: #fff;
-    font-size: 18px;
-    margin-right: 15px;
-    border-radius: 25px;
-    text-decoration: none;
-}
-.default-btn:hover {
-    background-color: #059862;
-    color: white;
-}
-.light_btn{
-    background: #fff;
-    color: #00ac6d;
-}
-
-.light_btn:hover {
-    background-color: #04AA6D;
-    color: white;
+.half-width {
+    width: 50%;
+    padding: 2% 3%;
 }
